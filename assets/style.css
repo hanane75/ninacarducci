@@ -66,18 +66,18 @@ body {
     flex: 1;
     margin: 0 20px;
     z-index: 0;
-    min-width: 374px; /* Assurez une taille minimale pour éviter le changement de mise en page */
+    
 }
 
 .picture img {
     width: 100%;
     height: auto;
-    display: block; /* Assurez que l'image ne provoque pas de marges indésirables */
+    
 }
 
 #about-me {
     flex: 2;
-    min-width: 300px; /* Assurez une taille minimale pour éviter le changement de mise en page */
+    
 }
 
 .about-me__title {

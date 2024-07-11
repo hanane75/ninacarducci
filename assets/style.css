@@ -48,9 +48,8 @@ body {
     padding-inline: 100px;
     padding-block: 100px;
     position: relative;
-    box-sizing: border-box; /* Assurez-vous que le padding est inclus dans la taille totale */
+    
 }
-
 .picture.left::before {
     content: ' ';
     background-color: #E5975F;
@@ -61,23 +60,20 @@ body {
     left: 0;
     z-index: -1;
 }
-
 .picture {
     flex: 1;
     margin: 0 20px;
     z-index: 0;
     
 }
-
 .picture img {
     width: 100%;
-    height: auto;
-    
+    height: auto; 
 }
 
 #about-me {
     flex: 2;
-    
+	min-width: 300px;
 }
 
 .about-me__title {

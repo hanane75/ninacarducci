@@ -43,52 +43,61 @@ body {
 }
 
 #about {
-	display: flex;
-	background-color: #F6D2B8;
-	padding-inline: 100px;
-	padding-block: 100px;
-	position: relative;
+    display: flex;
+    background-color: #F6D2B8;
+    padding-inline: 100px;
+    padding-block: 100px;
+    position: relative;
+    box-sizing: border-box; /* Assurez-vous que le padding est inclus dans la taille totale */
 }
 
 .picture.left::before {
-	content: ' ';
-	background-color: #E5975F;
-	width: 374px;
-	height: 329px;
-	position: absolute;
-	bottom: 0;
-	left: 0;
-	z-index: -1;
+    content: ' ';
+    background-color: #E5975F;
+    width: 374px;
+    height: 329px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
 }
 
 .picture {
-	flex: 1;
-	margin: 0 20px;
-	z-index: 0;
+    flex: 1;
+    margin: 0 20px;
+    z-index: 0;
+    min-width: 374px; /* Assurez une taille minimale pour éviter le changement de mise en page */
 }
 
 .picture img {
-	width: 100%;
+    width: 100%;
     height: auto;
+    display: block; /* Assurez que l'image ne provoque pas de marges indésirables */
 }
+
 #about-me {
-	flex: 2
+    flex: 2;
+    min-width: 300px; /* Assurez une taille minimale pour éviter le changement de mise en page */
 }
+
 .about-me__title {
-	margin-top: 1em;
-	margin-bottom: 60px;
-	font-size: 30px;
+    margin-top: 1em;
+    margin-bottom: 60px;
+    font-size: 30px;
 }
+
 .about-me__introduction {
-	font-family: 'Spectral';
-	font-weight: 800;
-	font-style: italic;
-	width: 60%;
+    font-family: 'Spectral';
+    font-weight: 800;
+    font-style: italic;
+    width: 60%;
 }
+
 #about-me p {
-	width: 80%;
-	font-size: 14px;
+    width: 80%;
+    font-size: 14px;
 }
+
 
 /*#gallery {
 	/*	min-height: 100vh; 

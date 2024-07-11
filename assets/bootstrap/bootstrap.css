@@ -5992,6 +5992,7 @@ textarea.form-control-lg {
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   transition: transform 0.6s ease-in-out;
+  aspect-ratio: 800/ 600;
 }
 @media (prefers-reduced-motion: reduce) {
   .carousel-item {

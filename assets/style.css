@@ -132,6 +132,7 @@ body {
 	height: 100%;
 	object-fit: cover;
 	padding: .5em;
+	aspect-ratio: 374 / 329;
 }
 .mg-prev, .mg-next {
 	width: 30px;

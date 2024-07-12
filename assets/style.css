@@ -41,6 +41,10 @@ body {
 .social-link img {
 	width: 20px;
 }
+.carousel-item{
+	width: 800px;
+    height: 370px;
+}
 
 #about {
     display: flex;

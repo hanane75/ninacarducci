@@ -366,3 +366,9 @@ input[type="submit"] {
 	}
 }
 
+footer p {
+font-weight: 500;
+align-items: center;
+display: flex;
+justify-content: center;
+}
